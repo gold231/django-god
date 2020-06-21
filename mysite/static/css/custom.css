@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 56px;
+    width: 100%;
+    background: #0095ff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header h1 {
+	background: transparent !important;
+}
+
+.footer-company {
+	text-align: center;
+    font-weight: bold;
+}
+
+footer {
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    background: #0095ff;
+    color: white;
+}
+
+.verse-list > li {
+	width: 100%;
+}
+
+nav > a {
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}

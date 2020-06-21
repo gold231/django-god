@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+    <title>Jesus and God | Bible & Churches</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/custom.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/scripture.css' %}">
+</head>
+
+
+
+<body style="margin:0;">
+    <header class="header">
+        <a href="/"><h1 style="color: white;">Jesus and God®</h1></a>
+        <nav>
+            <a href="/login" style="color: white;    text-decoration: none;">Signup</a>
+            <a href="/login" style="color: white;    text-decoration: none;">Login</a>
+        </nav>
+    </header>
+
+    <div class="subheader">
+      <div class="container flex">
+        <div class="subheadings">
+          <h2>Select a</h2>
+          <h3>Bible</h3>
+        </div>
+      </div>
+    </div>
+    <main class="container">
+      <div id="bible-version-list" class="list-container bible-list"></div>
+    </main>
+
+    <footer><p class="footer-company">© 2013-2020 Jesus and God, Inc.</p></footer>
+    <script type="text/javascript">window.location.href = "/book?version=06125adad2d5898a-01&abbr=ASV";</script>
+    <script type="text/javascript" src="{% static 'js/my_key.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/search.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/bibles.js' %}"></script>
+
+</body>
+
+</html>

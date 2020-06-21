@@ -1,1 +1,3 @@
-# django-god
+# django-payment
+
+pip install -r requirements.txt
